@@ -1,0 +1,41 @@
+button {
+    width: 20%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px black solid;
+    cursor: pointer;
+    font-size: large;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.green:hover {
+    background-color: darkgreen;
+    transition: 0.2s;
+}
+
+.green:active {
+    opacity: 55%;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.red:hover {
+    background-color: darkred;
+    transition: 0.2s;
+}
+
+.red:active {
+    opacity: 55%;
+}
+
+#myDiv {
+    display: flex;
+    justify-content: space-between;
+}
